@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado/MiMicromercado.csproj": {}
+  },
+  "projects": {
+    "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado.Library/MiMicromercado.Library.csproj": {
+      "version": "0.1.0-prerelease",
+      "restore": {
+        "projectUniqueName": "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado.Library/MiMicromercado.Library.csproj",
+        "projectName": "MiMicromercado.Library",
+        "projectPath": "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado.Library/MiMicromercado.Library.csproj",
+        "packagesPath": "/Users/benji/.nuget/packages/",
+        "outputPath": "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado.Library/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado/MiMicromercado.csproj": {
+      "version": "0.1.0-prerelease",
+      "restore": {
+        "projectUniqueName": "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado/MiMicromercado.csproj",
+        "projectName": "MiMicromercado",
+        "projectPath": "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado/MiMicromercado.csproj",
+        "packagesPath": "/Users/benji/.nuget/packages/",
+        "outputPath": "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado.Library/MiMicromercado.Library.csproj": {
+                "projectPath": "/Users/benji/Library/CloudStorage/OneDrive-Personal/TECHY/UNIFRANS/PROGRAMACION I/proyectoFinal/MiMicromercado/MiMicromercado.Library/MiMicromercado.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
